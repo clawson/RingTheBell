@@ -8,6 +8,7 @@
 
 @implementation Person
 
+#pragma mark - creation and destruction
 - (instancetype) init {
     [self registerForNotifications];
     return self;

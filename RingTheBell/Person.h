@@ -9,4 +9,7 @@
 
 @property NSString *name;
 
+- (void) respondToFirstBell: (NSNotification *) notification;
+- (void) respondToLastBell: (NSNotification *) notification;
+
 @end

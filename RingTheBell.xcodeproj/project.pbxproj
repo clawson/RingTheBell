@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		167AAA741AE0A0710072506E /* CanRemindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167AAA721AE0A0710072506E /* CanRemindViewController.m */; };
+		167AAA751AE0A0710072506E /* CanRemindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 167AAA731AE0A0710072506E /* CanRemindViewController.xib */; };
 		32E300E638FD33FB5AEEBFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E3085867203C3DFC8FC237 /* Main.storyboard */; };
 		32E303DB79B714B74B53DA7E /* RingTheBellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E302DFD83A0DDE5C13E588 /* RingTheBellTests.m */; };
 		32E305A56321A2B34727D0A2 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E3044177C0031E66FA72A4 /* Teacher.m */; };
@@ -32,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		167AAA711AE0A0710072506E /* CanRemindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanRemindViewController.h; sourceTree = "<group>"; };
+		167AAA721AE0A0710072506E /* CanRemindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanRemindViewController.m; sourceTree = "<group>"; };
+		167AAA731AE0A0710072506E /* CanRemindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanRemindViewController.xib; sourceTree = "<group>"; };
 		32E3000566D8C40EC5869BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		32E300B210F98EAEF2E7F30B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		32E3011B877CF507541FDC87 /* Bell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bell.h; sourceTree = "<group>"; };
@@ -122,6 +127,9 @@
 				32E3094453A5ACD85E4950A7 /* Bell.m */,
 				32E30CB604E76BA48FFD63B2 /* Person.m */,
 				32E30DE3F83F94C7EEDB58D1 /* Person.h */,
+				167AAA711AE0A0710072506E /* CanRemindViewController.h */,
+				167AAA721AE0A0710072506E /* CanRemindViewController.m */,
+				167AAA731AE0A0710072506E /* CanRemindViewController.xib */,
 			);
 			path = RingTheBell;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167AAA751AE0A0710072506E /* CanRemindViewController.xib in Resources */,
 				32E309EED415220B03DC1816 /* Images.xcassets in Resources */,
 				32E30814F0A9505C7593A8B9 /* LaunchScreen.xib in Resources */,
 				32E300E638FD33FB5AEEBFFE /* Main.storyboard in Resources */,
@@ -241,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				167AAA741AE0A0710072506E /* CanRemindViewController.m in Sources */,
 				32E3069EC6FD5941E1E3599F /* main.m in Sources */,
 				32E30D053CAE199C5C4E96F0 /* AppDelegate.m in Sources */,
 				32E30E4951863C77AA4AB601 /* ViewController.m in Sources */,
@@ -424,6 +434,7 @@
 				32E305D653D042ABEBCAA994 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32E30A323FD32722CE5CB1E7 /* Build configuration list for PBXProject "RingTheBell" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +452,7 @@
 				32E3074F7E5A190EB527CEA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
