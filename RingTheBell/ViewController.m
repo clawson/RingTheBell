@@ -27,6 +27,9 @@
     Teacher *teacher = [Teacher new];
     [teacher setName:@"Ben"];
 
+    Teacher *caleb = [Teacher new];
+    [caleb setName:@"Caleb"];
+
     Student *student = [Student new];
     [student setName:@"Dan"];
 
@@ -94,8 +97,10 @@
     NSString *message;
     if (index == 2) {
         message = @"Queen Found! Play again?";
+        NSLog(@"random number = %d, %@", index, message);
     } else {
         message = @"Sorry, you lose.  Play again?";
+        NSLog(@"random number = %d, %@", index, message);
     }
 
     UIAlertController *repeat = [UIAlertController alertControllerWithTitle:@"Find the Queen" message:message preferredStyle:UIAlertControllerStyleAlert];
