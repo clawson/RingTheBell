@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E300E638FD33FB5AEEBFFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E3085867203C3DFC8FC237 /* Main.storyboard */; };
+		32E303DB79B714B74B53DA7E /* RingTheBellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E302DFD83A0DDE5C13E588 /* RingTheBellTests.m */; };
+		32E305A56321A2B34727D0A2 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E3044177C0031E66FA72A4 /* Teacher.m */; };
+		32E30608FDCCBC4F90ACED41 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30F61A1E3A69B4205E430 /* Student.m */; };
+		32E306219211389882EC5A9B /* Bell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E3094453A5ACD85E4950A7 /* Bell.m */; };
+		32E3069EC6FD5941E1E3599F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E309F568683150CA4F00FE /* main.m */; };
+		32E30814F0A9505C7593A8B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E30B9A6AD1DEA1F919CDDA /* LaunchScreen.xib */; };
+		32E309EED415220B03DC1816 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E30AC86D4E985F393B3E9A /* Images.xcassets */; };
+		32E30D053CAE199C5C4E96F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E300B210F98EAEF2E7F30B /* AppDelegate.m */; };
+		32E30E4951863C77AA4AB601 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E301C6C9BA30E7E9498216 /* ViewController.m */; };
+		32E30EB13134D6FC03F50133 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30CB604E76BA48FFD63B2 /* Person.m */; };
+		32E30F45DB5FDD76162CB988 /* Secretary.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E30FFBF4B37E1DE50E3A13 /* Secretary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E301E6F5BD4C2B5172775F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E3029ABF1FA495F5AA38C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E30781FDE2F961812B2487;
+			remoteInfo = RingTheBell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32E3000566D8C40EC5869BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32E300B210F98EAEF2E7F30B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32E3011B877CF507541FDC87 /* Bell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bell.h; sourceTree = "<group>"; };
+		32E3017AF887295AEB4D3005 /* RingTheBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingTheBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E301C6C9BA30E7E9498216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32E302B83CC36AE7A068CB86 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		32E302DFD83A0DDE5C13E588 /* RingTheBellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingTheBellTests.m; sourceTree = "<group>"; };
+		32E30369BA68DCFF0919A391 /* Secretary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secretary.h; sourceTree = "<group>"; };
+		32E3044177C0031E66FA72A4 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		32E305E64663C428D791B7F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32E3066FFD708E4B61FE6D30 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		32E30833AD94A28FC0250CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		32E3094453A5ACD85E4950A7 /* Bell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bell.m; sourceTree = "<group>"; };
+		32E309F568683150CA4F00FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E30A0BDAFE0BAD91349A87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32E30AC86D4E985F393B3E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32E30B56ED792A2CDFBE742D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		32E30C1D9F837B00D781C747 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32E30CB604E76BA48FFD63B2 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		32E30DC5086ED1C2A1637F1A /* RingTheBellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingTheBellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E30DE3F83F94C7EEDB58D1 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		32E30F61A1E3A69B4205E430 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		32E30FFBF4B37E1DE50E3A13 /* Secretary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secretary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E300411757386DD7DEF1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E307F29DB2E2A7ABFC806D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E300F2335A6DFDFC0DFB49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E30833AD94A28FC0250CD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E3035230B81049EFF7BB87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E30B56ED792A2CDFBE742D /* Info.plist */,
+				32E309F568683150CA4F00FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E303EF3C050744C3788135 /* RingTheBellTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E300F2335A6DFDFC0DFB49 /* Supporting Files */,
+				32E302DFD83A0DDE5C13E588 /* RingTheBellTests.m */,
+			);
+			path = RingTheBellTests;
+			sourceTree = "<group>";
+		};
+		32E3076299F8E6610CFD5F09 /* RingTheBell */ = {
+			isa = PBXGroup;
+			children = (
+				32E3035230B81049EFF7BB87 /* Supporting Files */,
+				32E30AC86D4E985F393B3E9A /* Images.xcassets */,
+				32E30B9A6AD1DEA1F919CDDA /* LaunchScreen.xib */,
+				32E30A0BDAFE0BAD91349A87 /* AppDelegate.h */,
+				32E300B210F98EAEF2E7F30B /* AppDelegate.m */,
+				32E3085867203C3DFC8FC237 /* Main.storyboard */,
+				32E30C1D9F837B00D781C747 /* ViewController.h */,
+				32E301C6C9BA30E7E9498216 /* ViewController.m */,
+				32E302B83CC36AE7A068CB86 /* Teacher.h */,
+				32E3044177C0031E66FA72A4 /* Teacher.m */,
+				32E3066FFD708E4B61FE6D30 /* Student.h */,
+				32E30F61A1E3A69B4205E430 /* Student.m */,
+				32E30369BA68DCFF0919A391 /* Secretary.h */,
+				32E30FFBF4B37E1DE50E3A13 /* Secretary.m */,
+				32E3011B877CF507541FDC87 /* Bell.h */,
+				32E3094453A5ACD85E4950A7 /* Bell.m */,
+				32E30CB604E76BA48FFD63B2 /* Person.m */,
+				32E30DE3F83F94C7EEDB58D1 /* Person.h */,
+			);
+			path = RingTheBell;
+			sourceTree = "<group>";
+		};
+		32E3093D2193181B9D3CBD25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E3017AF887295AEB4D3005 /* RingTheBell.app */,
+				32E30DC5086ED1C2A1637F1A /* RingTheBellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E30BCA6F1E4D4F03D0849A = {
+			isa = PBXGroup;
+			children = (
+				32E3093D2193181B9D3CBD25 /* Products */,
+				32E3076299F8E6610CFD5F09 /* RingTheBell */,
+				32E303EF3C050744C3788135 /* RingTheBellTests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E30781FDE2F961812B2487 /* RingTheBell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E30EB45F1B57AA99E7EF0B /* Build configuration list for PBXNativeTarget "RingTheBell" */;
+			buildPhases = (
+				32E30ED1017ED85B7062067B /* Sources */,
+				32E300411757386DD7DEF1B3 /* Frameworks */,
+				32E3040E835ABA66EACD0180 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingTheBell;
+			productName = RingTheBell;
+			productReference = 32E3017AF887295AEB4D3005 /* RingTheBell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E30FC7B2C4070CCD4F0494 /* RingTheBellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E30249DF88D17F6A53209C /* Build configuration list for PBXNativeTarget "RingTheBellTests" */;
+			buildPhases = (
+				32E3008DDA8EB2AB43959710 /* Sources */,
+				32E307F29DB2E2A7ABFC806D /* Frameworks */,
+				32E30395BA10BA4A50BAF348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E30000A9D2318AD7394238 /* PBXTargetDependency */,
+			);
+			name = RingTheBellTests;
+			productName = RingTheBellTests;
+			productReference = 32E30DC5086ED1C2A1637F1A /* RingTheBellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E3029ABF1FA495F5AA38C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Slacker Tools";
+			};
+			buildConfigurationList = 32E30A323FD32722CE5CB1E7 /* Build configuration list for PBXProject "RingTheBell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32E30BCA6F1E4D4F03D0849A;
+			productRefGroup = 32E3093D2193181B9D3CBD25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E30781FDE2F961812B2487 /* RingTheBell */,
+				32E30FC7B2C4070CCD4F0494 /* RingTheBellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E30395BA10BA4A50BAF348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E3040E835ABA66EACD0180 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E309EED415220B03DC1816 /* Images.xcassets in Resources */,
+				32E30814F0A9505C7593A8B9 /* LaunchScreen.xib in Resources */,
+				32E300E638FD33FB5AEEBFFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E3008DDA8EB2AB43959710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E303DB79B714B74B53DA7E /* RingTheBellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E30ED1017ED85B7062067B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E3069EC6FD5941E1E3599F /* main.m in Sources */,
+				32E30D053CAE199C5C4E96F0 /* AppDelegate.m in Sources */,
+				32E30E4951863C77AA4AB601 /* ViewController.m in Sources */,
+				32E305A56321A2B34727D0A2 /* Teacher.m in Sources */,
+				32E30608FDCCBC4F90ACED41 /* Student.m in Sources */,
+				32E30F45DB5FDD76162CB988 /* Secretary.m in Sources */,
+				32E306219211389882EC5A9B /* Bell.m in Sources */,
+				32E30EB13134D6FC03F50133 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E30000A9D2318AD7394238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E30781FDE2F961812B2487 /* RingTheBell */;
+			targetProxy = 32E301E6F5BD4C2B5172775F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32E3085867203C3DFC8FC237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E305E64663C428D791B7F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32E30B9A6AD1DEA1F919CDDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E3000566D8C40EC5869BBF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E304E5C0FC7CA9F0850B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RingTheBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32E3057555C81ABD0F3580D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E305D653D042ABEBCAA994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RingTheBell.app/RingTheBell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RingTheBellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		32E3074F7E5A190EB527CEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RingTheBell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32E30E574C16A49D7CEA0A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E30E6FFA2F3280572688FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RingTheBell.app/RingTheBell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RingTheBellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E30249DF88D17F6A53209C /* Build configuration list for PBXNativeTarget "RingTheBellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E30E6FFA2F3280572688FC /* Debug */,
+				32E305D653D042ABEBCAA994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32E30A323FD32722CE5CB1E7 /* Build configuration list for PBXProject "RingTheBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E30E574C16A49D7CEA0A73 /* Debug */,
+				32E3057555C81ABD0F3580D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E30EB45F1B57AA99E7EF0B /* Build configuration list for PBXNativeTarget "RingTheBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E304E5C0FC7CA9F0850B84 /* Debug */,
+				32E3074F7E5A190EB527CEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E3029ABF1FA495F5AA38C5 /* Project object */;
+}
