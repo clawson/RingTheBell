@@ -37,7 +37,8 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:lastBell object:nil userInfo:nil];
 
     //[self showAlert];
-    [self showAlertSheet];
+    //[self showAlertSheet];
+    [self showMozzieGame];
 }
 
 
@@ -66,6 +67,45 @@
     }]];
 
     [self.parentViewController presentViewController:sheet animated:YES completion:nil];
+}
+
+- (void) showMozzieGame {
+
+    UIAlertController *mozzie = [UIAlertController alertControllerWithTitle:@"Find the Queen" message:@"Choose a card..." preferredStyle:UIAlertControllerStyleAlert];
+
+    [mozzie addAction:[UIAlertAction actionWithTitle:@"Card 1" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self mozzie];
+    }]];
+    [mozzie addAction:[UIAlertAction actionWithTitle:@"Card 2" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self mozzie];
+    }]];
+    [mozzie addAction:[UIAlertAction actionWithTitle:@"Card 3" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self mozzie];
+    }]];
+    [mozzie addAction:[UIAlertAction actionWithTitle:@"Quit" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {}]];
+
+    [self.parentViewController presentViewController:mozzie animated:YES completion:nil];
+}
+
+- (void) mozzie {
+
+    int index = arc4random_uniform(3);
+
+    NSString *message;
+    if (index == 2) {
+        message = @"Queen Found! Play again?";
+    } else {
+        message = @"Sorry, you lose.  Play again?";
+    }
+
+    UIAlertController *repeat = [UIAlertController alertControllerWithTitle:@"Find the Queen" message:message preferredStyle:UIAlertControllerStyleAlert];
+
+    [repeat addAction:[UIAlertAction actionWithTitle:@"No" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {}]];
+    [repeat addAction:[UIAlertAction actionWithTitle:@"Yes" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self showMozzieGame];
+    }]];
+
+    [self.parentViewController presentViewController:repeat animated:YES completion:nil];
 }
 
 - (NSString *) randomTitle {
